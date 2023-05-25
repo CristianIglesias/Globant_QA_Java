@@ -70,15 +70,8 @@ public class Test {
     str2 = str.toLowerCase();
     System.out.println(str2);    
     str2 = CambioVocales(str);
-   System.out.println(str2);
+    System.out.println(str2);
     }
-    
-    
-    
-    
-    
-    
-    
     
     public static String CambioVocales(String str){
         String str2;
@@ -92,9 +85,6 @@ public class Test {
         return str2;
     }
 
-    
-    
-    
     public static boolean Multiplo (int num1, int num2){       
         if(num1%num2 ==0)
         {return true;}
@@ -102,14 +92,12 @@ public class Test {
             return false;
     }
     
-    
-    
     public static int sumar(int num1, int num2){
     int num3= num1+num2;
     
-    return num3;
-        
+    return num3;        
     }
    
-   
+    
 }
+///
