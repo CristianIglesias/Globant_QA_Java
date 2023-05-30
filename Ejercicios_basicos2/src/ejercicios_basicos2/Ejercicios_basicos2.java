@@ -50,24 +50,20 @@ public static int LimitePositivo(int limite){
     
     int acu =0, num=0;
     Scanner leer = new Scanner(System.in);
-    
     limite = leer.nextInt();
-    
     while (acu<limite){
-    
         limite +=num;
-        num = leer.nextInt();  
+        num = leer.nextInt();
     }
-    
         System.out.println(num);
+        
     return 1;
-
 }    
     
     
     
     
-    
+   
     
     
     
